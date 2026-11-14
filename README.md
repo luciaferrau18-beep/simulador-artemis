@@ -97,3 +97,6 @@ En cumplimiento con las normativas de la cátedra, se detalla el uso ético y as
 | ChatGPT | *"¿Por qué me da error de 'multiple definition' al separar mis funciones en main.c y artemis.c?"* | Explicó el uso de las guardas de inclusión (`#ifndef`, `#define`). Las implementamos en `artemis.h`, `validaciones.h` y `reportes.h` para proteger las estructuras y evitar que se compilen dos veces. |
 | Claude | *"¿Cómo calculo un número elevado al cuadrado en lenguaje C para la fórmula de energía cinética?"* | Indicó que se debe usar la función `pow(base, 2)` de la librería `<math.h>` y compilar con `-lm`. Se aplicó en `artemis.c` para el cálculo de la fuerza de amerizaje y el trabajo de rozamiento. |
 | Gemini | *"¿Cómo guardar los resultados de una estructura en un archivo .txt en C de forma segura?"* | Explicó el uso de punteros `FILE *`, `fopen("archivo.txt", "w")` y la validación `if (archivo == NULL)`. Se implementó en `exportar_reporte_txt()` dentro de `reportes.c`. |
+
+## Video Demostrativo
+[Ver video de presentación del Simulador Artemis] (https://drive.google.com/file/d/1fiRugKHNTbsKnpa2GcX6QqqUQ5AO4Pmn/view?usp=sharing) 
